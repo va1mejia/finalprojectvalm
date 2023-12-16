@@ -1,0 +1,59 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="photogrid">
+        <div class="row">
+            <div class="column">
+                <img src="Symbols.JPG" alt="A sorority is a social organization, typically for women, that exists on college and university campuses. It is a type of fraternity, and both terms are often used to refer to Greek-letter organizations. Sororities are a significant part of the Greek system, which comprises various social, academic, and professional organizations with Greek letters as their identifiers.">
+                <img src="Initiation.JPG" alt="Sorority initiation is a ceremony during which new members, often referred to as pledges or new initiates, are formally accepted into the sorority. The initiation process is a significant and symbolic event in the life of a sorority member, marking the transition from being a pledge to becoming a full-fledged member with all the rights, privileges, and responsibilities that come with sorority membership.">
+            </div>
+            <div class="column">
+                <img src="newmember.JPG" alt="A new member is a person who accepted a bid and is awaiting initiation.">
+                <img src="Hazing.JPG" alt="Hazing refers to any activity, behavior, or initiation ritual that involves the harassment, abuse, or humiliation of individuals as a way of initiating them into a group, organization, or team. Hazing is often associated with certain social groups, including fraternities, sororities, sports teams, military units, and other organizations with initiation or membership rituals.">
+            </div>
+            <div class="column">
+                <img src="Big.HEIC" alt="A Big refers to an older or more experienced member, a Big Sister, who serves as a mentor, guide, and friend to a newer or less experienced member a Little Sister. This relationship is often established through a formal or informal matching process, and it is an integral part of the sorority experience.">
+                <img src="Little.HEIC" alt="A Little refers to a newer or less experienced member who is paired with an older, more experienced member known as her Big Sister. The Big-Little relationship is a common practice in many sororities and is designed to foster mentorship, support, and friendship within the organization.">
+            </div>
+            <div class="column">
+                <img src="Bid.JPG" alt="A sorority bid is an invitation extended to a prospective member, often called a potential new member or PNM to join a specific sorority. Sorority recruitment, also known as rush, involves a mutual selection process where sororities invite potential members to participate in various events and activities. At the end of the recruitment period, sororities extend bids to the women they would like to invite into their organization.">
+                <img src="PNM.PNG" alt="A Potential New Member (PNM) is an individual who is interested in joining a sorority or fraternity and is participating in the recruitment or rush process.">
+            </div>
+        </div>
+            <p><em>Add a caption.</em></p>
+        </div>
+
+        <!-- Button to link back to index.html -->
+        <button onclick="goToHomePage()">Go to Home Page</button>
+
+        <!-- Optional: Add any additional scripts here -->
+        <script>
+            function goToHomePage() {
+                // Redirect to index.html
+                window.location.href = "index.html";
+            }
+        </script>
+    </body>
+    </html>
